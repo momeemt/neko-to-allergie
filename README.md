@@ -2,7 +2,6 @@
 [![neko-to-allergie](http://img.youtube.com/vi/H8z0x-i84_c/0.jpg)](https://www.youtube.com/watch?v=H8z0x-i84_c)
 
 GB12017 論理回路演習の後半実験で扱われるArduinoスケッチのリポジトリ。実装内容が正確であることを保証しません。
-それぞれのスケッチが独立して動作するようにしているので、重複するプログラムもあります。
 
 ## develop
 以下による環境構築を想定しています。
