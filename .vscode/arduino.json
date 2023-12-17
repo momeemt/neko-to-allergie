@@ -1,0 +1,7 @@
+{
+    "configuration": "cpu=atmega328old",
+    "board": "arduino:avr:nano",
+    "sketch": "Dynamic_Drive/Dynamic_Drive.ino",
+    "port": "/dev/tty.wchusbserial210",
+    "programmer": "avrispmkii"
+}
