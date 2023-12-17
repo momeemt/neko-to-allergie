@@ -20,7 +20,7 @@ void count_up() {
 
 void loop() {
   unsigned long now = millis();
-  unsigned long last_countup_time = 0;
+  static unsigned long last_countup_time = 0;
   tsw_a2.update();
 
   if (tsw_a2.is_just_pressed()) {
