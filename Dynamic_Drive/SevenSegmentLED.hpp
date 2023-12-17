@@ -67,6 +67,12 @@ class SevenSegmentLED {
       }
     }
 
+    void write(byte digit, byte data) {
+      _write_a_digit(digit, data);
+      delay(1);
+      _clear_7seg();
+    }
+
     void init() {
       for (byte i = SEG_G; i <= SEG7_BIN1; i++) {
         ::pinMode(i, OUTPUT);

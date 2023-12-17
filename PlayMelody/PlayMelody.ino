@@ -1,5 +1,5 @@
 #include "pitches.h"
-#include "../utils/PiezoelectricSounder.hpp";
+#include "PiezoelectricSounder.hpp";
 
 void construct_melody(PiezoelectricSounder *ps) {
   ps->add_note(NOTE_D5, 250);

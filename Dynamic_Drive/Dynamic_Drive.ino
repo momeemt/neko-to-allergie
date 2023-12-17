@@ -1,4 +1,4 @@
-#include "../utils/SevenSegmentLED.hpp"
+#include "SevenSegmentLED.hpp"
 
 void setup() {
   auto ssled = SevenSegmentLED();
